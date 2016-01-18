@@ -27,10 +27,9 @@ app.get('/(:id)?', function(req, res){
     }
     res.json(out);
     res.end();}
-   // res.sendFile(process.cwd() + '/index.html');
 });
 
-var port = 8080;
+var port = process.env.PORT || 8080;
 app.listen(port,  function () {
 	console.log('Node.js listening on port ' + port + '...');
 });
