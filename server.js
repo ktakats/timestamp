@@ -29,6 +29,6 @@ app.get('/(:id)?', function(req, res){
     res.end();}
 });
 
-app.listen(process.env.PORT || 8080,  function () {
+app.listen(process.env.PORT || 3000,  function () {
 	console.log('Node.js listening on port ...');
 });
