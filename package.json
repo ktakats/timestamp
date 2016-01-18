@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "FCC Bonfire: timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktakats/timestamp.git"
+  },
+  "author": "ktakats",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktakats/timestamp/issues"
+  },
+  "homepage": "https://github.com/ktakats/timestamp#readme"
+}
